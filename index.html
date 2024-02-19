@@ -1,0 +1,75 @@
+<!-- 2020-1-60-062 -->
+<!-- form using HTML & CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<form action="#" method="get" enctype="multipart/form-data">
+			<br>
+			<label for="name">Name: </label>
+			<br>
+			<input type="text" placeholder="Type your name" name="name" id="name" class="name">
+			
+			<br><br>
+			<label for="email">Email: </label>
+			<br>
+			<input type="email" placeholder="Type your email address" name="email" id="email" class="email">
+			
+			<br><br>
+			<label for="subject">Subject: </label>
+			<br>
+			<input type="text" placeholder="Subject" name="subject" id="subject" class="subject">
+
+			<br><br>
+			<label for="gender">Gender: </label>
+			<input type="radio" value="Male" name="gender" id="gender" class="gender"><span>male</span>
+			<input type="radio" value="Female" name="gender" id="gender" class="gender"><span>female</span>
+
+			<br><br>
+			<label for="country">Country: </label>
+			<select id="country" name="country" class="country">
+				<option value="Bangladesh">Bangladesh</option>
+				<option value="United States">United States</option>
+				<option value="United Kingdem">United Kingdem</option>
+				<option value="Australia">Australia</option>
+
+			</select>
+			
+			
+			<br><br>
+			<label for="interests">Interests: </label>
+			<input type="checkbox" value="Data science" name="interests" id="interests" class="interests"><span>Data science</span>
+			<input type="checkbox" value="Software engineering" name="interests" id="interests" class="interests"><span>Software engineering</span>
+			<input type="checkbox" value="Machine learning" name="interests" id="interests" class="interests"><span>Machine learning</span>
+			<input type="checkbox" value="Cloud computing" name="interests" id="interests" class="interests"><span>Cloud computing</span>
+			<input type="checkbox" value="Information management" name="interests" id="interests" class="interests"><span>Information management</span>
+			<input type="checkbox" value="Cybersecurity" name="interests" id="interests" class="interests"><span>Cybersecurity</span>
+			<input type="checkbox" value="Biocomputation" name="interests" id="interests" class="interests"><span>Biocomputation</span>
+
+			<br><br>
+			<label for="message">Message: </label>
+			<br>
+			<textarea cols="73" rows="10" placeholder="2020-1-60-062..."name="message" id="message" class="message"></textarea>
+
+			<br><br>
+			<button type="reset">Reset</button>
+			<button type="submit">Submit</button>
+
+		</form>
+	</div>
+</body>
+</html>
+
+<!-- The action attribute specifies where to send the form-data when a form is submitted. Contains ID -->
+
+<!-- The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute). 
+** The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post"). -->
+
+<!-- The enctype attribute specifies how the form-data should be encoded when submitting it to the server. 
+** The enctype attribute can be used only if method="post". -->

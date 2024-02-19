@@ -1,0 +1,26 @@
+.wrapper
+{
+	width: 60%;
+	margin: 0 auto;
+	background: #ececec;
+	border: 5px groove #ddd;
+}
+
+label
+{
+	font-size: 22px;
+}
+.name, .email, .subject
+{
+	width: 90%;
+	height: 25px;
+	padding: 10px;
+	background: #f6f6f6;
+	font-size: 18px;
+}
+.message
+{
+	background: #f6f6f6;
+	font-size: 18px;
+	padding: 10px;
+}
